@@ -28,4 +28,7 @@ function PlayRound(playerSelection,computerSelection){
     else if (playerSelection == 'scissors' && computerSelection == 'rock'){
         
     }
+    else{
+        
+    }
 }
