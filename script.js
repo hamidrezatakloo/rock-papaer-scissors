@@ -45,4 +45,5 @@ function game(){
 
 }
 
-game()
+const result = game()
+console.log(result)
