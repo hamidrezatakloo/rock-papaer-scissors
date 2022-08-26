@@ -35,7 +35,7 @@ function game(){
     
     for (let i = 0; i<5; i++){
         let playerSelection = prompt("Rock,paper or scissors");
-        winner = PlayRound(playerSelection,computerSelection())
+        let winner = PlayRound(playerSelection,computerSelection())
     }
 
 }
