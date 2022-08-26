@@ -32,3 +32,11 @@ function PlayRound(playerSelection,computerSelection){
         return 'equal'
     }
 }
+
+function game(){
+    
+    for (let i = 0; i<5; i++){
+        
+    }
+
+}
