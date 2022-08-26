@@ -11,24 +11,24 @@ function PlayRound(playerSelection,computerSelection){
     computerSelection = computerSelection.toLowerCase();
 
     if (playerSelection == 'rock' && computerSelection == 'paper'){
-
+        return 'computer'
     }
     else if (playerSelection == 'rock' && computerSelection == 'scissors'){
-
+        return 'player'
     }
     else if (playerSelection == 'paper' && computerSelection == 'rock'){
-
+        return 'player'
     }
     else if (playerSelection == 'scissors' && computerSelection == 'paper'){
-        
+        return 'player'
     }
     else if (playerSelection == 'paper' && computerSelection == 'scissors'){
-        
+        return 'computer'
     }
     else if (playerSelection == 'scissors' && computerSelection == 'rock'){
-        
+        return 'computer'
     }
     else{
-        
+        return 'equal'
     }
 }
