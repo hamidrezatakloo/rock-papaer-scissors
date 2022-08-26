@@ -9,4 +9,23 @@ function computerSelection(){
 function PlayRound(playerSelection,computerSelection){
     playerSelection = playerSelection.toLowerCase();
     computerSelection = computerSelection.toLowerCase();
+
+    if (playerSelection == 'rock' && computerSelection == 'paper'){
+
+    }
+    else if (playerSelection == 'rock' && computerSelection == 'scissors'){
+
+    }
+    else if (playerSelection == 'paper' && computerSelection == 'rock'){
+
+    }
+    else if (playerSelection == 'scissors' && computerSelection == 'paper'){
+        
+    }
+    else if (playerSelection == 'paper' && computerSelection == 'scissors'){
+        
+    }
+    else if (playerSelection == 'scissors' && computerSelection == 'rock'){
+        
+    }
 }
