@@ -5,3 +5,7 @@ function computerSelection(){
     const choices = ['rock','paper','scissors']
     return choices[randomIndex]
 }
+
+function PlayRound(playerSelection,computerSelection){
+    
+}
