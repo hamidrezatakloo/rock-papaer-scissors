@@ -1,5 +1,3 @@
-let playerSelection = prompt("Rock,paper or scissors");
-
 function computerSelection(){
     randomIndex = Math.floor(Math.random() * 3)
     const choices = ['rock','paper','scissors']
@@ -36,7 +34,7 @@ function PlayRound(playerSelection,computerSelection){
 function game(){
     
     for (let i = 0; i<5; i++){
-        
+        let playerSelection = prompt("Rock,paper or scissors");
     }
 
 }
