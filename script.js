@@ -5,7 +5,10 @@ document.addEventListener('click',(e)=>{
     playerSelection = e.target.textContent;
 })
 
-document.querySelector('.submit-choice').addEventListener('click',game())
+document.querySelector('.submit-choice').addEventListener('click',(e)=>{
+    e.preventDefault()
+    game()
+})
 
 function computerSelection(){
     randomIndex = Math.floor(Math.random() * 3)
@@ -16,7 +19,6 @@ function computerSelection(){
 function PlayRound(playerSelection,computerSelection){
     playerSelection = playerSelection.toLowerCase();
     computerSelection = computerSelection.toLowerCase();
-
     if (playerSelection == 'rock' && computerSelection == 'paper'){
         return 'computer'
     }
