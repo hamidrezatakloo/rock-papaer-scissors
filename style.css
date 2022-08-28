@@ -15,3 +15,15 @@ body{
     justify-content: center;
     height: 500px;
 }
+
+.Rock{
+    background-color: #795548;
+}
+
+.Paper{
+    background-color: #fafafa;
+}
+
+.Scissors{
+    background-color:#ff5722;
+}
