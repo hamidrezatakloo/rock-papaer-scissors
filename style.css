@@ -9,3 +9,7 @@ body{
     border: 2px solid black;
     justify-content: center;
 }
+
+.Rock,.Paper,.Scissors{
+    flex: 1;
+}
