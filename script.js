@@ -43,7 +43,6 @@ function PlayRound(playerSelection,computerSelection){
 function game(){
     let playerScore = 0;
     let computerScore = 0;
-    let playerSelection = prompt("Rock,paper or scissors");
     let winner = PlayRound(playerSelection,computerSelection())
     if (winner == 'player') ++playerScore;
     else if (winner == 'computer') ++computerScore;
