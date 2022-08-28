@@ -39,5 +39,9 @@ body{
 
 button{
     border: none;
-    padding: 10px 30px;
+    padding: 10px 60px;
+    background-color:#2196f3;
+    border-radius: 5px;
+    color: white;
+    
 }
