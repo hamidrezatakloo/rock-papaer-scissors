@@ -1,3 +1,10 @@
+document.addEventListener('click',(e)=>{
+    if (! e.target.matches('.container > div')) return;
+    e.target.style.border = '4px solid #fafafa';
+})
+
+
+
 function computerSelection(){
     randomIndex = Math.floor(Math.random() * 3)
     const choices = ['rock','paper','scissors']
