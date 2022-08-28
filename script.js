@@ -5,7 +5,7 @@ document.addEventListener('click',(e)=>{
     playerSelection = e.target.textContent;
 })
 
-document.querySelector('submit-choice').addEventListener('click',game())
+document.querySelector('.submit-choice').addEventListener('click',game())
 
 function computerSelection(){
     randomIndex = Math.floor(Math.random() * 3)
