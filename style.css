@@ -54,4 +54,5 @@ button{
     color: white;
     font-family: inherit;
     font-size:30px;
+    border: 3px solid #fafafa;
 }
