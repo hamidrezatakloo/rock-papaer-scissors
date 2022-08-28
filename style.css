@@ -13,6 +13,7 @@ body{
     align-items: center;
     gap:80px;
     flex: 1;
+    background-color: #2196f3;
 }
 
 .container{
