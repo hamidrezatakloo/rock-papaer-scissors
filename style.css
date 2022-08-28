@@ -14,6 +14,7 @@ body{
     justify-content: center;
     height: 500px;
     color: white;
+    font-family: 'staatliches',cursive;
 }
 
 .Rock{
@@ -21,7 +22,7 @@ body{
 }
 
 .Paper{
-    background-color: #fafafa;
+    background-color: #757575;
 }
 
 .Scissors{
