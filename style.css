@@ -34,6 +34,18 @@ body{
     border-radius: 5px;
 }
 
+.Rock:hover{
+    background-color: #3e2723;
+}
+
+.Paper:hover{
+    background-color: #212121;
+}
+
+.Scissors:hover{
+    background-color: #bf360c;
+}
+
 .Rock{
     background-color: #795548;
 }
