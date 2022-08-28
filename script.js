@@ -1,9 +1,8 @@
 let playerSelection ='';
-
-
 document.addEventListener('click',(e)=>{
     if (! e.target.matches('.container > div')) return;
     e.target.classList.toggle('selected');
+    playerSelection = e.target.textContent
 })
 
 
