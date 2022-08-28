@@ -1,6 +1,7 @@
 body{
     margin: 0;
-        font-family: 'staatliches',cursive;
+    font-family: 'staatliches',cursive;
+    height:100vh;
 }
 
 .container-all{
