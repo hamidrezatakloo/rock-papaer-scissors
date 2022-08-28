@@ -1,6 +1,6 @@
 document.addEventListener('click',(e)=>{
     if (! e.target.matches('.container > div')) return;
-    e.target.style.border = '4px solid #fafafa';
+    e.target.classList.toggle('selected');
 })
 
 
