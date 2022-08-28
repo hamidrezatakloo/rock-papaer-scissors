@@ -1,5 +1,6 @@
 body{
     margin: 0;
+        font-family: 'staatliches',cursive;
 }
 
 .container-all{
@@ -20,7 +21,6 @@ body{
     justify-content: center;
     height: 500px;
     color: white;
-    font-family: 'staatliches',cursive;
     align-items:center;
     font-size: 48px;
 }
