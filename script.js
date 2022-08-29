@@ -19,6 +19,7 @@ document.querySelector('.submit-choice').addEventListener('click',(e)=>{
     if (playerScore > 5 || computerScore > 5){
         playerScore = 0;
         computerScore = 0;
+        document.querySelectorAll('.result').forEach(el=>el.remove())
     }
     document.querySelector('#playerScore').textContent = playerScore;
     document.querySelector('#computerScore').textContent = computerScore;
