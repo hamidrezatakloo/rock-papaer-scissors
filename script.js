@@ -10,6 +10,7 @@ document.querySelector('.submit-choice').addEventListener('click',(e)=>{
     const result = game();
     const resultElement = document.createElement('div');
     resultElement.textContent = result;
+    document.body.appendChild(resultElement)
     resultElement.classList.add('result');
 })
 
