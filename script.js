@@ -50,10 +50,9 @@ function PlayRound(playerSelection,computerSelection){
 }
 
 let winner = '';
-
+let playerScore = 0;
+let computerScore = 0;
 function game(){
-    let playerScore = 0;
-    let computerScore = 0;
     let computerSelection = computerSelectionFunc()
     winner = PlayRound(playerSelection,computerSelection)
     if (winner == 'player') ++playerScore;
