@@ -9,7 +9,7 @@ document.querySelector('.submit-choice').addEventListener('click',(e)=>{
     e.preventDefault();
     const result = game();
     const resultElement = document.createElement('div');
-    resultElement.textContent = result;
+    resultElement.innerHTML = result;
     document.body.appendChild(resultElement)
     resultElement.classList.add('result');
 })
@@ -54,6 +54,6 @@ function game(){
     if (winner == 'player') ++playerScore;
     else if (winner == 'computer') ++computerScore;
 
-    return "computerSelection: "+computerSelection+"\t"+"playerSelection: "+playerSelection;
+    return "<span>computerSelection: "+computerSelection+"</span>"+"<span>playerSelection: "+playerSelection+"</span>";
 }
 
