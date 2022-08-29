@@ -81,4 +81,7 @@ button:hover{
 
 .score{
     font-family: 'Roboto Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
