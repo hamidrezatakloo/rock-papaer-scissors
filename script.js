@@ -58,6 +58,6 @@ function game(){
     if (winner == 'player') ++playerScore;
     else if (winner == 'computer') ++computerScore;
 
-    return "<span>computerSelection: "+computerSelection+"</span>"+"<span>playerSelection: "+playerSelection+"</span>";
+    return "<span>computerSelection: "+computerSelection.toUpperCase()+"</span>"+"<span>playerSelection: "+playerSelection.toUpperCase()+"</span>";
 }
 
