@@ -7,7 +7,9 @@ document.addEventListener('click',(e)=>{
 
 document.querySelector('.submit-choice').addEventListener('click',(e)=>{
     e.preventDefault()
-    game()
+    const result = game()
+    const resultElement = document.createElement('div')
+    resultElement.textContent = result;
 })
 
 function computerSelection(){
