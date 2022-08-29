@@ -16,8 +16,10 @@ document.querySelector('.submit-choice').addEventListener('click',(e)=>{
     if (winner =='player') resultElement.classList.add('winner')
     else if(winner =='computer') resultElement.classList.add('looser')
     else resultElement.classList.add('equal')
-    if (playerScore > 5 || computerScore > 5)
-        
+    if (playerScore > 5 || computerScore > 5){
+        playerScore = 0;
+        computerScore = 0;
+    }
     document.querySelector('#playerScore').textContent = playerScore;
     document.querySelector('#computerScore').textContent = computerScore;
 })
