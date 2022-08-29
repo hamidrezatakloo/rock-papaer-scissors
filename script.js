@@ -12,6 +12,7 @@ document.querySelector('.submit-choice').addEventListener('click',(e)=>{
     resultElement.innerHTML = result;
     document.body.appendChild(resultElement)
     resultElement.classList.add('result');
+    if (winner =='player') resultElement.classList.add('winner')
 })
 
 function computerSelectionFunc(){
