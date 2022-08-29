@@ -97,3 +97,7 @@ button:hover{
     padding: 10px 0;
     font-family:'Roboto Mono', monospace; ;
 }
+
+.winner{
+    background-color: #76FF03;
+}
