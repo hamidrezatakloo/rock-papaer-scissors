@@ -15,6 +15,9 @@ document.querySelector('.submit-choice').addEventListener('click',(e)=>{
     if (winner =='player') resultElement.classList.add('winner')
     else if(winner =='computer') resultElement.classList.add('looser')
     else resultElement.classList.add('equal')
+
+    document.querySelector('#playerScore').textContent = playerScore;
+    document.querySelector('#computerScore').textContent = computerScore;
 })
 
 function computerSelectionFunc(){
