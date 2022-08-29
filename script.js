@@ -6,17 +6,17 @@ document.addEventListener('click',(e)=>{
 })
 
 document.querySelector('.submit-choice').addEventListener('click',(e)=>{
-    e.preventDefault()
-    const result = game()
-    const resultElement = document.createElement('div')
+    e.preventDefault();
+    const result = game();
+    const resultElement = document.createElement('div');
     resultElement.textContent = result;
-    resultElement.classList.add('result')
+    resultElement.classList.add('result');
 })
 
 function computerSelectionFunc(){
-    randomIndex = Math.floor(Math.random() * 3)
-    const choices = ['rock','paper','scissors']
-    return choices[randomIndex]
+    randomIndex = Math.floor(Math.random() * 3);
+    const choices = ['rock','paper','scissors'];
+    return choices[randomIndex];
 }
 
 function PlayRound(playerSelection,computerSelection){
