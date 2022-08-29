@@ -46,11 +46,13 @@ function PlayRound(playerSelection,computerSelection){
     }
 }
 
+let winner = '';
+
 function game(){
     let playerScore = 0;
     let computerScore = 0;
     let computerSelection = computerSelectionFunc()
-    let winner = PlayRound(playerSelection,computerSelection)
+    winner = PlayRound(playerSelection,computerSelection)
     if (winner == 'player') ++playerScore;
     else if (winner == 'computer') ++computerScore;
 
