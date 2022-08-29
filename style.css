@@ -78,3 +78,7 @@ button:hover{
 .selected{
     border: 4px solid #fafafa;
 }
+
+.score{
+    font-family: 'Roboto Mono', monospace;
+}
