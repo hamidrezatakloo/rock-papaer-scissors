@@ -101,3 +101,11 @@ button:hover{
 .winner{
     background-color: #76FF03;
 }
+
+.looser{
+    background-color: #EF9A9A;
+}
+
+.equal{
+    background-origin: #BDBDBD;
+}
