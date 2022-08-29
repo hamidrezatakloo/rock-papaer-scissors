@@ -54,6 +54,6 @@ function game(){
     if (winner == 'player') ++playerScore;
     else if (winner == 'computer') ++computerScore;
 
-    return "computerSelection: "+computerSelection+"\t"+"+playerSelection: "+playerSelection;
+    return "computerSelection: "+computerSelection+"\t"+"playerSelection: "+playerSelection;
 }
 
