@@ -13,7 +13,7 @@ document.querySelector('.submit-choice').addEventListener('click',(e)=>{
     resultElement.classList.add('result')
 })
 
-function computerSelection(){
+function computerSelectionFunc(){
     randomIndex = Math.floor(Math.random() * 3)
     const choices = ['rock','paper','scissors']
     return choices[randomIndex]
@@ -48,7 +48,7 @@ function PlayRound(playerSelection,computerSelection){
 function game(){
     let playerScore = 0;
     let computerScore = 0;
-    let computerSelection = computerSelection()
+    let computerSelection = computerSelectionFunc()
     let winner = PlayRound(playerSelection,computerSelection)
     if (winner == 'player') ++playerScore;
     else if (winner == 'computer') ++computerScore;
